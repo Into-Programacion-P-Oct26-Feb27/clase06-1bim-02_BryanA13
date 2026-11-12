@@ -29,17 +29,32 @@ public class Ejemplo01 {
                 break;
             
             case "Martes":
-            case "martes":
+            case "martes":   
                 System.out.printf("%s", cadena);
                 break;
             
+            case "Miercoles":
+            case "miercoles":
+                System.out.printf("%s", cadena);
+                break;
+                
+            case "Jueves":
+            case "jueves": 
+                System.out.printf("%s", cadena);
+                break;
+                
+                
             case "Viernes":
-            case "VIERNES":
             case "viernes":
                 System.out.printf("%s", cadena);
                 break;
             
-            case "Domingo":
+            case "Sabado":
+            case "sabado":  
+                System.out.printf("%s", cadena);
+                break;
+                
+            case "Domingo":   
                 System.out.printf("%s, es el séptimo día "
                         + "de la semana", cadena);
                 break;
